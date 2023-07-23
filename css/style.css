@@ -839,6 +839,10 @@ a {
 
 /* Showcase Block */
 
+.block-showcase .grid--1x2 {
+  gap: 1rem;
+}
+
 .block-showcase__img {
   width: 100%;
 }
