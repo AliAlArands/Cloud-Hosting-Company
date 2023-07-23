@@ -34,20 +34,20 @@
     </header>
     <!-- Hero Component -->
     <section class="block block--dark block--skewed-left hero">
-      <div class="grid grid--1x2">
+      <div class="container grid grid--1x2">
         <header class="block__header hero__content">
-          <h1 class="hero__header">Cloud Hosting for Pros</h1>
-          <p class="hero_tagline">
+          <h1 class="hero__header" data-aos="zoom-in-up">Cloud Hosting for Pros</h1>
+          <p class="hero__tagline">
             Deploy your website in less than 60 seconds.
           </p>
           <a href="#" class="btn btn--accent btn--stretched">Get Started</a>
         </header>
-        <img class="hero__image" src="images/banner.png" alt="" />
+        <img data-aos="zoom-in" class="hero__image" src="images/banner.png" alt="" />
       </div>
     </section>
 
     <!-- Domain Component -->
-    <section class="block block--domain">
+    <section data-aos="zoom-in-up" class="block block--domain">
       <div class="block__header">
         <h2>The best webshobing Starting at $10 per month</h2>
         <p>
@@ -80,7 +80,7 @@
       </ul>
     </section>
     <!-- Plans -->
-    <section class="block block-plans">
+    <section data-aos="fade-up" class="block block-plans">
       <div class="grid grid--1x3">
         <div class="plan">
           <div class="card card--secondary">
@@ -199,7 +199,7 @@
       <!-- 2 -->
       <article class="feature">
         <div class="grid grid--1x2">
-          <div class="text">
+          <div class="text" data-aos="fade-up">
             <span class="icon-container">
               <svg class="icon icon--primary">
                 <use xlink:href="images/sprite.svg#computer"></use>
@@ -216,14 +216,14 @@
               >Learn More<span class="arrow">&rarr;</span></a
             >
           </div>
-          <img class="feature__image" src="images/fast.jpg" alt="Easy to use" />
+          <img data-aos="fade-down" class="feature__image" src="images/fast.jpg" alt="Easy to use" />
         </div>
       </article>
 
       <!-- 3 -->
       <article class="feature">
         <div class="grid grid--1x2">
-          <div class="text">
+          <div class="text" data-aos="fade-up">
             <span class="icon-container">
               <svg class="icon icon--primary">
                 <use xlink:href="images/sprite.svg#wordpress"></use>
@@ -244,6 +244,7 @@
             class="feature__image"
             src="images/wordpress.jpg"
             alt="Easy to use"
+            data-aos="fade-down"
           />
         </div>
       </article>
@@ -251,7 +252,7 @@
       <!-- 4 -->
       <article class="feature">
         <div class="grid grid--1x2">
-          <div class="text">
+          <div class="text" data-aos="fade-left">
             <span class="icon-container">
               <svg class="icon icon--primary">
                 <use xlink:href="images/sprite.svg#clock"></use>
@@ -272,6 +273,7 @@
             class="feature__image"
             src="images/support.jpg"
             alt="Easy to use"
+            data-aos="fade-right"
           />
         </div>
       </article>
@@ -283,8 +285,8 @@
         <h2>User-fiendly Control Panel</h2>
       </header>
       <div class="grid grid--1x2">
-        <img class="block-showcase__img" src="images/ipad.png" alt="" />
-        <ul class="list">
+        <img data-aos="fade-right" class="block-showcase__img" src="images/ipad.png" alt="" />
+        <ul class="list" data-aos="fade-up">
           <li>
             <div class="media">
               <div class="media__image">
@@ -339,7 +341,7 @@
 
     <!-- Testimonial Block -->
 
-    <section class="block">
+    <section class="block" data-aos="zoom-in">
       <header class="block__header">
         <h2>What our Customer are Saying</h2>
         <p>
@@ -470,6 +472,9 @@
     </footer>
 
     <script src="js/main.js"></script>
-    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

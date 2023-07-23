@@ -545,6 +545,13 @@ a {
 .callout {
   padding: 4rem;
   border-radius: 10 px;
+  width: 80%;
+  border-radius: .25rem;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  /* position: absolute;
+  left: 10%;
+  top: 1650% */
 }
 
 .callout--primary {
