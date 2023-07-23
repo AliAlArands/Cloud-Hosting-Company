@@ -73,6 +73,24 @@ p {
   }
 }
 
+@media screen and (max-width: 500px) {
+  body {
+    font-size: 1.1rem;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.4rem;
+  }
+}
+
 /* Links */
 a {
   text-decoration: none;
@@ -105,6 +123,15 @@ a {
   }
 }
 
+@media screen and (max-width: 500px) {
+  .link-arrow {
+    font-size: 1.5rem;
+  }
+
+  .arrow {
+    font-size: 1.75rem;
+  }
+}
 /* Badges */
 
 .badge {
@@ -144,6 +171,14 @@ a {
   }
   .badge--small {
     font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  
+  .badge--small {
+    font-size: 1.2rem;
+    margin-left: 5px;
   }
 }
 
@@ -254,6 +289,28 @@ a {
   }
 }
 
+@media screen and (max-width: 500px) {
+  .btn {
+    font-size: 1.5rem;
+  }
+
+  .btn--block {
+    width: 70%;
+    margin: 10px 15%;
+  }
+
+  .btn--search {
+    font-size: 1rem;
+    padding: 0.1rem 1rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .btn--stretched {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
 /* Inputs */
 
 .input {
@@ -296,6 +353,16 @@ a {
   }
 }
 
+@media screen and (max-width: 500px) {
+  .input {
+    padding: 0.5rem 1.5rem;
+    font-size: 1.3rem;
+  }
+
+  ::placeholder {
+    font-size: 1.3rem;
+  }
+}
 /* Cards */
 
 .card {
@@ -388,6 +455,19 @@ a {
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .plan__name {
+    font-size: 1rem;
+  }
+
+  .plan__price {
+    font-size: 3rem;
+  }
+
+  .plan_billing-cycle {
+    font-size: 1rem;
+  }
+}
 /* Icons */
 
 .icon {
@@ -420,6 +500,17 @@ a {
 
 .icon-container--accent {
   background-color: var(--color-accent);
+}
+
+@media screen and (max-width: 500px) {
+  .icon-container {
+    width: 40px;
+    height: 40px;
+  }
+  .icon {
+    width: 20px;
+    height: 20px;
+  }
 }
 /* Media */
 
@@ -495,6 +586,20 @@ a {
   }
 }
 
+@media screen and (max-width: 500px) {
+  .quote {
+    font-size: 2rem;
+  }
+
+  .quote__author {
+    font-size: 2.4rem;
+  }
+
+  .quote__organization {
+    font-size: 1.6rem;
+  }
+}
+
 /* Grid */
 
 .grid {
@@ -546,7 +651,7 @@ a {
   padding: 4rem;
   border-radius: 10 px;
   width: 80%;
-  border-radius: .25rem;
+  border-radius: 0.25rem;
   margin: 0 auto;
   margin-bottom: 100px;
   /* position: absolute;
@@ -591,6 +696,14 @@ a {
   } */
 }
 
+@media screen and (max-width: 500px) {
+  .callout .callout__heading {
+    font-size: 2rem;
+    margin-top: 0;
+    color: #fff;
+  }
+}
+
 /* Collapsible */
 
 .collapsible__header {
@@ -628,6 +741,13 @@ a {
 
 .collapsible--expanded .collapsible__chevron {
   transform: rotate(0);
+}
+
+@media screen and (max-width: 500px) {
+  .collapsible__header .collapsible__heading  {
+    font-size: 1.5rem;
+    
+  }
 }
 
 /* Blocks */
@@ -732,6 +852,14 @@ a {
   }
 }
 
+
+@media screen and (max-width:500px){
+  .nav__img{
+    width: 150px;
+    object-fit: cover;
+    /* height: 50px; */
+  }
+}
 /* Hero */
 
 .hero__header {
@@ -760,6 +888,12 @@ a {
   .hero__content {
     text-align: left;
     align-self: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .hero__tagline {
+    font-size: 1.5rem;
   }
 }
 
